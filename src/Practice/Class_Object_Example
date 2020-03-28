@@ -1,0 +1,27 @@
+#Test
+#print("Hello")
+
+class Employee:
+    name='Jagadish'
+    age=29
+    designation='Technical Engineer'
+    achieved=5
+
+    def TargetAchieved(self):
+        if self.achieved >= 4:
+            print("You have achieved the target")
+        else:
+            print("You have not achieved the target")
+employeeOne = Employee()
+
+print("The employee name is: " , employeeOne.name)
+print("The employee age is: ", employeeOne.age)
+print("The employee designation is: ", employeeOne.designation)
+
+
+
+
+
+
+
+
